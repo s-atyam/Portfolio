@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+body{
+    background: rgb(42, 42, 42);
+    color: white;
+    overflow: hidden;
+    /* overflow-y: scroll; */
+    font-family: 'Quicksand', sans-serif;
+}
