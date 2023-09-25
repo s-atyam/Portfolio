@@ -1,0 +1,11 @@
+h1{
+    width: 80%;
+    text-align: center; 
+    border-bottom: 2px solid rgb(74, 74, 74); 
+    line-height: 0.1em;
+    margin: 7rem auto; 
+}
+h1 span{ 
+    background:rgb(40, 40, 40);
+    padding:0 20px; 
+}
