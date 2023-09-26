@@ -21,7 +21,7 @@
     /* align-items: center; */
     border-radius: 5px;
     flex-direction: column;
-    background-color: rgb(235, 249, 255);
+    background-color: rgb(242, 251, 255);
     box-shadow: rgba(120, 197, 255, 0.532) 0px 2px 4px 0px, rgba(59, 170, 255, 0.498) 0px 2px 6px 1px;
 }
 .project-menu h1{
@@ -45,4 +45,12 @@
 .project-menu-icon-pic{
     width: 3rem;
     margin: 0 2rem 0 0;
+}
+@media only screen and (max-width:492px) {
+    .main-project{
+        width: 95vw;
+    }
+    .project-menu{
+        margin: 1rem 0.5rem;
+    }
 }

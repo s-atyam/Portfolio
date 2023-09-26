@@ -18,7 +18,8 @@
     /* -webkit-filter: blur(1px); */
 }
 .navbar-logo{
-    background-color: transparent;
+    width: 10rem;
+    /* border: 1px solid red; */
 }
 .navbar-menu{
     display: flex;

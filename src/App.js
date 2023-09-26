@@ -1,7 +1,9 @@
+import Contact from "./components/Contact/contact";
 import Experties from "./components/Experties/experties";
 import Linewithtext from "./components/HorizontalLineWithText/linewithtext";
 import Introduction from "./components/Introduction/introduction";
 import Navbar from "./components/Navbar/navbar";
+import Problemsolving from "./components/ProblemSolving/problemsolving";
 import Projects from "./components/Projects/projects";
 
 function App() {
@@ -13,7 +15,11 @@ function App() {
       <Experties/>
       <Linewithtext text="Projects"/>
       <Projects/>
-      <Linewithtext text="Projects"/>
+      <Linewithtext text="Problem Solving Skills"/>
+      <Problemsolving/>
+      <Linewithtext text="Contact Me"/>
+      <Contact/>
+      <Linewithtext text="Contact Me"/>
     </div>
   );
 }
