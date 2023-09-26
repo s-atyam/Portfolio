@@ -1,3 +1,4 @@
+import Experties from "./components/Experties/experties";
 import Linewithtext from "./components/HorizontalLineWithText/linewithtext";
 import Introduction from "./components/Introduction/introduction";
 import Navbar from "./components/Navbar/navbar";
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Introduction/>
       <Linewithtext text="My Experties"/>
+      <Experties/>
     </div>
   );
 }

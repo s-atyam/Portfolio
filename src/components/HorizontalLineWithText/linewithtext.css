@@ -1,11 +1,13 @@
-h1{
+.linewithtext{
     width: 80%;
     text-align: center; 
-    border-bottom: 2px solid rgb(74, 74, 74); 
+    border-bottom: 2px solid rgb(115, 115, 115); 
     line-height: 0.1em;
-    margin: 7rem auto; 
+    margin: 5rem auto; 
 }
-h1 span{ 
-    background:rgb(40, 40, 40);
+.linewithtext span{ 
+    background:rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+    font-weight: 400;
     padding:0 20px; 
 }
