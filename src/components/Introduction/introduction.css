@@ -64,22 +64,45 @@
         transform: translateY(0px);
     }
 }
-
-@media only screen and (max-width:492px) {
+@media only screen and (max-width:1000px) {
     .main-introduction{
-        height: calc(100vh-5rem);
-        width: 95vw;
-        margin: 2rem auto 5rem auto;
+        width: 90vw;
+        height: fit-content;
+        margin: 0 auto 5rem auto;
+    }
+    .introduction-dp{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .introduction-content{
+        width: 98%;
+        margin: 0 auto;
+        font-size: 1.8rem;
+    }
+    .i-c-text{
+        font-size: 3.3rem;
+    }
+    .introduction-content p{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:500px) {
+    .main-introduction{
+        width: 100vw;
+        height: fit-content;
+        margin: 0 auto 5rem auto;
     }
     .introduction-dp{
         width: 100%;
     }
     .introduction-content{
-        width: 95%;
+        width: 98%;
         margin: 0 auto;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .i-c-text{
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }.introduction-content p{
+        font-size: 1rem;
     }
 }

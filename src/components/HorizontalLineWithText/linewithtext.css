@@ -4,16 +4,18 @@
     border-bottom: 2px solid rgb(115, 115, 115); 
     line-height: 0.1em;
     margin: 5rem auto; 
+    border-radius: 50%;
 }
 .linewithtext span{ 
     background:rgb(255, 255, 255);
     color: rgb(75, 75, 75);
     font-weight: 400;
-    padding:0 20px; 
+    padding:0 10px; 
 }
-@media only screen and (max-width:492px) {
+@media only screen and (max-width:500px) {
     .linewithtext{
-        width: 95%;
+        width: 99%;
+        font-size: 1.5rem;
         margin: 3rem auto; 
     }
 }

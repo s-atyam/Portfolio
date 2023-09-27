@@ -1,7 +1,7 @@
 .main-navbar{
     height: 5rem;
-    width: 100vw;
-    max-width: 80%;
+    width: 80vw;
+    /* max-width: 80%; */
     border-radius: 5px;
     margin: 0 auto;
     display: flex;
@@ -38,12 +38,12 @@
     background-color: rgb(193, 193, 193); 
     cursor: pointer;   
 }
-.navbar-logo:hover{
+/* .navbar-logo:hover{
     
 }
 .navbar-menu:hover{
     
-}
+} */
 .navbar-menu-item:hover{
     color: rgb(168, 168, 168);
     border-bottom: 2px solid rgb(170, 170, 170);
@@ -51,4 +51,9 @@
 .navbar-contact:hover{
     background-color: rgb(137, 137, 137);    
     color: black;
+}
+@media only screen and (max-width:500px) {
+    .main-navbar{
+        width: 100vw;
+    }
 }
