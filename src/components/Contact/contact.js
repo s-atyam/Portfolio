@@ -3,6 +3,7 @@ import './contact.css'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  // console.log();
   const initialValue = {
     name:'',
     email:'',
@@ -31,7 +32,7 @@ const Contact = () => {
   }
   const onClick = (e)=>{
     e.preventDefault();
-    emailjs.send('serviceID', 'templateID', 'templateParams','publicKey')
+    emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, data, process.env.REACT_APP_PUBLIC_KEY)
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
        setData(initialValue);
