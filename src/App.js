@@ -19,7 +19,7 @@ function App() {
       <Problemsolving/>
       <Linewithtext text="Contact Me"/>
       <Contact/>
-      <Linewithtext text="Contact Me"/>
+      <Linewithtext text="Made in React"/>
     </div>
   );
 }

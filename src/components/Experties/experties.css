@@ -6,9 +6,9 @@
     flex-wrap: wrap;
 }
 .experties-menu{
-    width: 45%;
+    width: 48%;
     min-width: 400px;
-    aspect-ratio: initial;
+    /* aspect-ratio: initial; */
     border-radius: 5px;
     margin: 1rem auto;
     display: flex;
