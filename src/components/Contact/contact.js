@@ -1,14 +1,53 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './contact.css'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  const initialValue = {
+    name:'',
+    email:'',
+    subject:'',
+    text:''
+  } 
+  const [data, setData] = useState(initialValue);
+
+  const onChange = (e,para)=>{
+    if(para==='name'){
+      setData({...data,name:e.target.value});
+      console.log(data);
+    }
+    else if(para==='subject'){
+      setData({...data,subject:e.target.value});
+      console.log(data);
+    }
+    else if(para==='email'){
+      setData({...data,email:e.target.value});
+      console.log(data);
+    }
+    else if(para==='text'){
+      setData({...data,text:e.target.value});
+      console.log(data);
+    }
+  }
+  const onClick = (e)=>{
+    e.preventDefault();
+    emailjs.send('serviceID', 'templateID', 'templateParams','publicKey')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+       setData(initialValue);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+  }
+
   return (
     <div className='main-contact'>
       <form className='contact-form'>
-        <input type='text' className='contact-form-name' placeholder='Enter you name...' ></input>
-        <input type='email' className='contact-form-email' placeholder='Enter you email...'></input>
-        <textarea type='text' className='contact-form-text' placeholder='Enter you message...' rows={7} ></textarea>
-        <button className='contact-form-btn'>SUBMIT</button>
+        <input type='text' className='contact-form-name' value={data.name} onChange={e=>onChange(e,'name')} placeholder='Name...' ></input>
+        <input type='text' className='contact-form-name' value={data.subject} onChange={e=>onChange(e,'subject')} placeholder='Subject...' ></input>
+        <input type='email' className='contact-form-email' value={data.email} onChange={e=>onChange(e,'email')} placeholder='Email...'></input>
+        <textarea type='text' className='contact-form-text' value={data.text} onChange={e=>onChange(e,'text')} placeholder='Message...' rows={7} ></textarea>
+        <button className='contact-form-btn' onClick={onClick} >SUBMIT</button>
       </form>
     </div>
   )

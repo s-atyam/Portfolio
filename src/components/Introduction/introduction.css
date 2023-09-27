@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 .introduction-dp{
-    height: 30rem;
+    height: 25rem;
     width: 40%;
     min-width: 300px;
     display: flex;
@@ -22,7 +22,7 @@
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
     transition: all .5s;
 }
@@ -43,12 +43,12 @@
 }
 .introduction-content p{
     margin: 0.3rem 0;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 500;
 }
 .i-c-text{
     color: rgb(0, 208, 10);
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 @keyframes dp-toggle{
     from{
