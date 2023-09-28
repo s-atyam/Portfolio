@@ -8,7 +8,7 @@ import github_dp from './github.png'
 
 const Projects = () => {
   return (
-    <div className='main-project'>
+    <div id='pro' className='main-project'>
         <div className='project-menu'>
             <h1>Task Tracker</h1>
             <div className='project-menu-icon'>

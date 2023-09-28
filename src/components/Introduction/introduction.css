@@ -22,13 +22,14 @@
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    width: 60%;
-    border-radius: 10px;
+    /* width: 60%; */
+    aspect-ratio: 1/1;
+    border-radius: 50%;
     transition: all .5s;
-}
-.introduction-dp-pic:hover{
     box-shadow: rgb(52, 194, 255) 0px 4px 8px 0px, rgb(142, 219, 255) 0px 4px 8px 0px;
 }
+/* .introduction-dp-pic:hover{
+} */
 .introduction-content{
     width: 60%;
     display: flex;
@@ -42,6 +43,8 @@
 }
 .introduction-content p{
     margin: 0.3rem 0;
+    width: 85%;
+    /* border: 2px solid red; */
     font-size: 1.05rem;
     font-weight: 500;
 }

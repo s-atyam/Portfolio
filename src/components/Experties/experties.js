@@ -9,7 +9,7 @@ import mysql_pic from './mysql.png';
 
 const Experties = () => {
   return (
-    <div className='main-experties'>
+    <div id='exp' className='main-experties'>
       <div className='experties-menu'>
         <img src={react_pic} className='experties-menu-pic' alt=''/>
         <div className='experties-menu-content'>

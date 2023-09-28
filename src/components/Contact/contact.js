@@ -3,7 +3,6 @@ import './contact.css'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  // console.log();
   const initialValue = {
     name:'',
     email:'',
@@ -15,19 +14,12 @@ const Contact = () => {
   const onChange = (e,para)=>{
     if(para==='name'){
       setData({...data,name:e.target.value});
-      console.log(data);
-    }
-    else if(para==='subject'){
+    }else if(para==='subject'){
       setData({...data,subject:e.target.value});
-      console.log(data);
-    }
-    else if(para==='email'){
+    }else if(para==='email'){
       setData({...data,email:e.target.value});
-      console.log(data);
-    }
-    else if(para==='text'){
+    }else if(para==='text'){
       setData({...data,text:e.target.value});
-      console.log(data);
     }
   }
   const onClick = (e)=>{
@@ -42,7 +34,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='main-contact'>
+    <div id='cont' className='main-contact'>
       <form className='contact-form'>
         <input type='text' className='contact-form-name' value={data.name} onChange={e=>onChange(e,'name')} placeholder='Name...' ></input>
         <input type='text' className='contact-form-name' value={data.subject} onChange={e=>onChange(e,'subject')} placeholder='Subject...' ></input>

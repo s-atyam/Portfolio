@@ -8,11 +8,11 @@ const Navbar = () => {
     <div className='main-navbar'>
         <img src={logo_dp} className='navbar-logo' alt=''/>
         <div className='navbar-menu'>
-            <Link className='navbar-menu-item'>Home</Link>
-            {/* <Link className='navbar-menu-item'>About</Link>
-            <Link className='navbar-menu-item'>Contact</Link> */}
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} className='navbar-menu-item'>About</Link>
+            <Link activeClass='active' to='exp' spy={true} smooth={true} offset={-200} className='navbar-menu-item'>Experties</Link>
+            <Link activeClass='active' to='pro' spy={true} smooth={true} offset={-200} className='navbar-menu-item'>Projects</Link>
         </div>
-        <div className='navbar-contact'>Contact</div>
+        <Link activeClass='active' to='cont' spy={true} smooth={true} offset={-100} className='navbar-contact'>Contact</Link>
     </div>
   )
 }
