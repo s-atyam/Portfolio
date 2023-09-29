@@ -18,19 +18,19 @@
     justify-content: space-between;
     border-radius: 5px;
     flex-direction: column;
-    background-color: #b7e0f0;
-    box-shadow: rgba(128, 128, 128, 0.532) 0px 2px 4px 0px, rgba(35, 35, 35, 0.498) 0px 2px 6px 1px;
+    background-color: #d8c5b8;
+    border: 1px solid #858585;
 }
 .project-menu h1{
     font-size: 2rem;
     font-weight: 400;
     width: fit-content;
-    color: rgb(70, 70, 70);
+    color: #323232;
     border-bottom: 2px solid grey;
 }
 .project-menu p{
     font-weight: 500;
-    color: rgb(70, 70, 70);
+    color: #323232;
 }
 .project-menu-icon{
     display: flex;

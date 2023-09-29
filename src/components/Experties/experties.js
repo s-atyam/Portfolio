@@ -1,11 +1,11 @@
 import React from 'react';
 import './experties.css';
-import react_pic from './react.png';
-import javascript_pic from './javascript.png';
-import node_pic from './node.png';
-import express_pic from './express.png';
-import mongodb_pic from './mongodb.png';
-import mysql_pic from './mysql.png';
+import react_pic from '../images/react.png'
+import javascript_pic from '../images/javascript.png';
+import node_pic from '../images/node.png';
+import express_pic from '../images/express.png';
+import mongodb_pic from '../images/mongodb.png';
+import mysql_pic from '../images/mysql.png';
 
 const Experties = () => {
   return (

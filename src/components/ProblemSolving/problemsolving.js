@@ -1,6 +1,6 @@
 import React from 'react'
 import './problemsolving.css'
-import coding_image from './image.gif'
+import coding_image from '../images/image.gif'
 
 const Problemsolving = () => {
   const onClick = () =>{

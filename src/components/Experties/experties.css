@@ -13,7 +13,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-    background-color: #b5e0f0;
+    background-color: #dbc7bb;
+    border: 1px solid #404040;
 }
 .experties-menu-pic{
     width: 8rem;

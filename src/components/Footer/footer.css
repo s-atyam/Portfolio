@@ -5,8 +5,7 @@
     justify-content: center;
     margin: 2rem auto 0 auto;
     width: 100%;
-    /* margin: 0 auto; */
-    background-color: #9ad8f0;
+    background-color: #857979;
 }
 .footer-image{
     width: 3rem;
@@ -17,5 +16,4 @@ h3{
     font-weight: 500;
     font-size: 1.3rem;
     margin: 0 1%;
-    /* background-color: aquamarine; */
 }

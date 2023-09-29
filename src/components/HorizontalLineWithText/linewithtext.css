@@ -7,8 +7,8 @@
     border-radius: 50%;
 }
 .linewithtext span{ 
-    background:#e7f4ff;
-    color: rgb(75, 75, 75);
+    background:#ddd0c8;
+    color: #323232;
     font-weight: 400;
     padding:0 10px; 
 }

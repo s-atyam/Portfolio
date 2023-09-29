@@ -7,7 +7,7 @@
     background: transparent;
 }
 body{
-    background-color: #e7f4ff;
+    background-color: #ddd0c8;
     color: rgb(25, 25, 25);
     overflow: hidden;
     overflow-y: scroll;
@@ -20,6 +20,6 @@ body{
     background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(113, 113, 113);
+    background-color: #323232;
     border-radius: 20px;
 }

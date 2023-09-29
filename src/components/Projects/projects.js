@@ -1,10 +1,10 @@
 import React from 'react'
 import './projects.css'
-import react_dp from '../Experties/react.png'
-import express_dp from '../Experties/express.png'
-import mysql_dp from '../Experties/mysql.png'
-import javascript_dp from '../Experties/javascript.png'
-import github_dp from './github.png'
+import react_dp from '../images/react.png'
+import express_dp from '../images/express.png'
+import mysql_dp from '../images/mysql.png'
+import javascript_dp from '../images/javascript.png'
+import github_dp from '../images/github.png'
 
 const Projects = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
-import linkedin_pic from './linkedin.png';
-import github_pic from './github.png';
+import linkedin_pic from '../images/linkedin.png';
+import github_pic from '../images/github.png';
 
 const Footer = () => {
   return (

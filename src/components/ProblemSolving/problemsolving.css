@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #9ad8f0;
+    background-color: #c0a99b;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,9 +31,9 @@
     border-radius: 5px;
     font-weight: 600;
     font-size: 1.1rem;
-    background-color: #3a6ff5;
+    background-color: #e8e2de;
     cursor: pointer;
-    color: rgb(77, 77, 77);
+    color: #323232;
     border: none;
     text-decoration: none;
     outline: none;
