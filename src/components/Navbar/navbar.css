@@ -11,7 +11,8 @@
     z-index: 5;
     font-weight: 500;
     font-size: 1.2rem;
-    background-color: rgba(216, 216, 216, 0.458);
+    /* background-color: rgba(216, 216, 216, 0.458); */
+    background-color: rgba(188, 160, 239, 0.5);
     backdrop-filter: blur(6px);
 }
 .navbar-logo{
@@ -33,7 +34,7 @@
     padding: 0.5rem;
     border-radius: 4px;
     text-align: center;
-    background-color: rgb(193, 193, 193); 
+    background-color: #3a6ff5; 
     cursor: pointer;   
 }
 .navbar-menu-item:hover{
@@ -41,7 +42,7 @@
     border-bottom: 2px solid rgb(170, 170, 170);
 }
 .navbar-contact:hover{
-    background-color: rgb(137, 137, 137);    
+    background-color: #9cb5f3;    
     color: black;
 }
 .navbar-menu-mobile{
@@ -57,17 +58,23 @@
     transition: all 1s ease-in-out;
     
 }
+.navbar-menu-mobile:hover{
+    .menu-mobile-dropdown{
+        display: flex;
+    }
+}
 .menu-mobile{
     width: 100%;
     height: 100%;
 }
 .menu-mobile-dropdown{
     position: absolute;
-    top: 40px;
+    top: 35px;
     left: -0.1%;
     background-color: rgba(204, 204, 204, 0.547);
     width: 100%;
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: column;
     border-radius: 5px;
     backdrop-filter: blur(5px) ;
@@ -78,9 +85,9 @@
     margin: 0.5rem;
     width: fit-content;
     color: rgb(69, 69, 69);
-    text-align: center;
-    
+    text-align: center;    
 }
+
 @media only screen and (max-width:600px) {
     .navbar-menu{
         display: none;
