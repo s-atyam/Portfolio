@@ -1,5 +1,6 @@
 import Contact from "./components/Contact/contact";
 import Experties from "./components/Experties/experties";
+import Footer from "./components/Footer/footer";
 import Linewithtext from "./components/HorizontalLineWithText/linewithtext";
 import Introduction from "./components/Introduction/introduction";
 import Navbar from "./components/Navbar/navbar";
@@ -19,7 +20,7 @@ function App() {
       <Problemsolving/>
       <Linewithtext text="Contact Me"/>
       <Contact/>
-      <Linewithtext text="Made in React"/>
+      <Footer/>
     </div>
   );
 }
