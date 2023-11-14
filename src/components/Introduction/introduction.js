@@ -10,7 +10,7 @@ const Introduction = () => {
             <span className='i-c-hello'>Hello, I am</span>
             <span className='i-c-text'>Satyam Bharti</span>
             <span className='i-c-work'>MERN Developer</span>
-            <p className='i-c-para'>I'm a MERN stack enthusiast and web developer with a zeal for creating seamless digital experiences. With 1 year of experience in React, Node.js, MongoDB, and Express.js, I've honed my skills in building efficient and engaging web applications. My journey also extends to Data Structures and Algorithms, where I've tackled over 300 challenges on LeetCode, enhancing my problem-solving expertise.</p>
+            <p className='i-c-para'>I've been working with the MERN stack for about a year now, diving into React, Node.js, MongoDB, and Express.js. During this time, I've focused on developing web applications that are not just functional but also really grab the user's attention. I've also delved into the world of Data Structures and Algorithms, taking on more than 300 challenges on LeetCode. It's been a great way for me to sharpen my problem-solving skills.</p>
         </div>
     </div>
   )
